@@ -27,7 +27,7 @@ void randomizar(std::list<SDL_Rect*> rectangles, SDL_Renderer* renderer, SDL_Rec
         SDL_RenderFillRect(renderer, rect);
     }
 }
-/*colisao automatica, gerar outro retangulo ao encostar random, tocar som , -> colocar vector de rect p os pintados tirando os nao pintados*/
+
 int main(int argc, char** argv)
 {
     srand(time(NULL));
